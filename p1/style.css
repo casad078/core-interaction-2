@@ -2,6 +2,7 @@
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
+    color: white;
 
 }
 
@@ -20,5 +21,8 @@ button:hover {
     border-color: skyblue;
 }
 
-
+.poem {
+    font-size: 10px;
+    margin-right: 900px;
+}
 

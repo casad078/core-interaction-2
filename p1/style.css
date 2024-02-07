@@ -26,3 +26,8 @@ button:hover {
     margin-right: 900px;
 }
 
+.symbol {
+    font-size: 5px;
+    white-space: pre;
+    font-family: monospace;
+}

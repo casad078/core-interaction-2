@@ -24,3 +24,15 @@ img {
     top: -130px;
     left: 1050px;
 }
+
+a {
+    text-decoration: none; 
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+  

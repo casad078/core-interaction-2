@@ -6,28 +6,33 @@
 
 }
 
-h1 {
+h3 {
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130px;
+    position: relative;
+    top: 260px;
 }
 
-button {
+a {
     color: white;
     border-color: white;
     letter-spacing: .50rem;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
 } 
 
-button:hover {
-    color: skyblue;
-    border-color: skyblue;
+a:hover {
+    color: red;
+    font-style: italic;
 }
 
-.poem {
-    font-size: 10px;
-    margin-right: 900px;
+.links a {
+    font-size: 70px;
 }
 
-.symbol {
-    font-size: 5px;
-    white-space: pre;
-    font-family: monospace;
+.links a:hover {
+    background-color: white;
+    font-style: normal;
 }

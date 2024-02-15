@@ -1,26 +1,36 @@
 * {
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: minion-pro, serif;
+    font-weight: 700;
+    font-style: normal;
     padding: 10px;
     color: white;
-
+    overflow: hidden;
+    font-size: 80px;
 }
 
 h3 {
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 130px;
-    position: relative;
-    top: 260px;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+}
+
+.on {
+    line-height: 90px;
+    color: white;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
 }
 
 a {
     color: white;
     border-color: white;
-    letter-spacing: .50rem;
     text-decoration: none;
-    font-size: 50px;
-    font-weight: bold;
+    
 } 
 
 a:hover {
@@ -36,3 +46,5 @@ a:hover {
     background-color: white;
     font-style: normal;
 }
+
+

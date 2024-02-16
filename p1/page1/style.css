@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: anth, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-right: 700px;
+    text-align: justify;
+}
+
+#one {
+    font-family: "anth", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 60px;
+    text-decoration: none;
+    position: relative;
+    left: 1220px;
+    padding: 25px;
+}
+
+#one:hover {
+    color: white;
+}

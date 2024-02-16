@@ -1,16 +1,19 @@
 * {
     background-color: black;
     color: blanchedalmond;
-    font-family: anth, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "sigurd-semi", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 p {
-    padding-left: 50px;
+    padding-left: 80px;
     padding-top: 50px;
-    margin-right: 700px;
+    width: 500px;
     text-align: justify;
+    font-family: "sigurd-semi", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 #one {
@@ -25,5 +28,5 @@ p {
 }
 
 #one:hover {
-    color: white;
+    color: red;
 }

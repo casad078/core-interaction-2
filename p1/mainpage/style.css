@@ -1,7 +1,7 @@
 * {
     background-color: black;
-    font-family: "anth", sans-serif;
-    font-weight: 700;
+    font-family: swear-display, serif;
+    font-weight: 400;
     font-style: italic;
     padding: 10px;
     color: white;
@@ -11,11 +11,8 @@
 
 h3 {
     color: white;
-    font-size: 150px;
-    font-family: "anth", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    padding-top: 240px;
+    font-size: 200px;
+    padding-top: 100px;
 }
 
 
@@ -23,7 +20,9 @@ a {
     color: white;
     border-color: white;
     text-decoration: none;
-    
+    font-family: swear-display, serif;
+    font-weight: 600;
+    font-style: normal;
 } 
 
 a:hover {

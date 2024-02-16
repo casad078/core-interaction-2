@@ -1,8 +1,8 @@
 * {
     background-color: black;
-    font-family: minion-pro, serif;
+    font-family: "anth", sans-serif;
     font-weight: 700;
-    font-style: normal;
+    font-style: italic;
     padding: 10px;
     color: white;
     overflow: hidden;
@@ -11,20 +11,13 @@
 
 h3 {
     color: white;
-    font-family: minion-pro, serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 150px;
+    font-family: "anth", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 200px;
 }
 
-.on {
-    line-height: 90px;
-    color: white;
-    font-family: minion-pro, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 150px;
-}
 
 a {
     color: white;
@@ -43,8 +36,29 @@ a:hover {
 }
 
 .links a:hover {
-    background-color: white;
     font-style: normal;
 }
 
+#one {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
 
+#two {
+    position: absolute;
+    bottom: 500px;
+    left: 500px;
+}
+
+#three {
+    position: absolute;
+    bottom: 200px;
+    left: 700px;
+}
+
+#four {
+    position: absolute;
+    bottom: 600px;
+    left: 1000px;
+}

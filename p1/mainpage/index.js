@@ -1,21 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
     const pageWidth = window.innerWidth;
     const pageHeight = window.innerHeight;
-    const numTexts = 15; // Number of texts to create
+    const numTexts = 18; // Number of texts to create
 
     function createFloatingText() {
-        const textElement = document.createElement('div');
         const linkElement = document.createElement('a');
-        textElement.textContent = ';';
+        linkElement.textContent = ';'; // Set your desired link text here
         linkElement.href = 'https://casad078.github.io/core-interaction-2/p1/page1/'; 
-        textElement.classList.add('floating-text');
-        textElement.appendChild(linkElement); 
-        document.body.appendChild(textElement);
+        linkElement.classList.add('floating-text');
 
-        const textWidth = textElement.offsetWidth;
-        const textHeight = textElement.offsetHeight;
+        document.body.appendChild(linkElement);
 
-        
+        const textWidth = linkElement.offsetWidth;
+        const textHeight = linkElement.offsetHeight;
+
         let x = Math.random() * (pageWidth - textWidth);
         let y = Math.random() * (pageHeight - textHeight);
         let dx = Math.random() * 4 - 2; // Random horizontal speed
@@ -33,12 +31,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 dy = -dy; // Reverse vertical direction when hitting the top or bottom
             }
             
-            textElement.style.left = x + 'px';
-            textElement.style.top = y + 'px';
+            linkElement.style.left = x + 'px';
+            linkElement.style.top = y + 'px';
         }
 
         // Set interval to move the text every 10 milliseconds
-        setInterval(moveText, 40);
+        setInterval(moveText, 50);
     }
 
     // Create multiple floating texts

@@ -17,9 +17,9 @@ p {
 }
 
 #link {
+    text-align: center;
     padding: 5px;
-    display: flex;
-    justify-content: center;
+    display: inline;
     text-decoration: none;
     font-style: bold;
     margin-bottom: 20px;

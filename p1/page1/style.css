@@ -33,6 +33,10 @@ p {
   font-style: italic;
 }
 
+.trigger:hover {
+    font-size: 1.1rem;
+  }  
+
 #end {
   color: red;
   font-size: 2vw;
@@ -71,6 +75,16 @@ a:hover {
 
 button {
     text-align: center;
+    padding-top: 15px;
+    animation:fadeInUp 1s ease backwards;
+}
+
+.centergoddammit {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #revealAll:hover {

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const pageWidth = window.innerWidth;
     const pageHeight = window.innerHeight;
-    const numTexts = 18; // Number of texts to create
+    const numTexts = 30; // Number of texts to create
 
     function createFloatingText() {
         const linkElement = document.createElement('a');

@@ -1,32 +1,79 @@
 * {
-    background-color: black;
     color: blanchedalmond;
-    font-family: "sigurd-semi", sans-serif;
+    font-family: "ariel", sans-serif;
     font-weight: 300;
-    font-style: italic;
 }
+
+body{
+    background-color: #000000;
+    padding-bottom: 300px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 p {
     padding-left: 80px;
     padding-top: 50px;
-    width: 500px;
-    text-align: justify;
-    font-family: "sigurd-semi", sans-serif;
-    font-weight: 300;
+    width: 45%;
+    cursor: default;
+    animation:fadeInUp 1s ease backwards;
+}
+
+.hidden {
+    display: none;
+  }
+
+.trigger {
+  color: red;
+  cursor: pointer;
+  font-family: sigurd-semi, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#end {
+  color: red;
+  font-size: 2vw;
+  font-family: sigurd-semi, sans-serif;
+  font-style: italic;
+}
+
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+
+#link {
+    font-family: swear-display, serif;
+    font-style: normal;
+    font-size: 500%;
+    margin-left: 50%;
+    position: absolute;
+    padding-bottom: 150px;
+    margin-top: -15px;
+    animation:fadeInUp 1s ease backwards;
+}  
+
+a:hover {
+    color: red;
+    font-family: swear-display, serif;
+    font-weight: 400;
     font-style: italic;
 }
 
-#one {
-    font-family: "anth", sans-serif;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 60px;
-    text-decoration: none;
-    position: relative;
-    left: 1220px;
-    padding: 25px;
+#revealAll {
+    background-color: transparent;
+    border: none;
+    color: red;
 }
 
-#one:hover {
-    color: red;
+button {
+    text-align: center;
+}
+
+#revealAll:hover {
+    font-style: italic;
+    cursor: pointer;
 }

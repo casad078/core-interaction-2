@@ -14,8 +14,16 @@ h3 {
     color: white;
     font-size: 15vw;
     padding-top: 15%;
+    animation-name: fontChange;
+    animation-duration: .6s;
+    animation-iteration-count: 1;
 }
 
+@keyframes fontChange {
+    0% {
+        font-size: 1vw;
+    }
+}
 
 a {
     color: white;
@@ -76,6 +84,8 @@ a:hover {
     font-weight: 600;
     font-style: normal;
     height: 42%;
+    animation-name: fontChange;
+    animation-duration: .2s;
 }
 
 .floating-text:hover {

@@ -89,3 +89,13 @@ a:hover {
     0%{transform:translate(0px, 100px); opacity: 0;}
     100%{transform:translate(0px, 0); opacity: 1;}
   }
+
+h3::selection {
+    color: black;
+    background-color: red;
+}
+
+a::selection {
+    color: black;
+    background-color: red;
+}

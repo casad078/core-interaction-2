@@ -98,3 +98,8 @@ button {
     font-style: italic;
     cursor: pointer;
 }
+
+p::selection {
+  color: black;
+  background-color: red;
+}

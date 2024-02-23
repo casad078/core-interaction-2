@@ -28,7 +28,8 @@ a {
 
 a:hover {
     color: red;
-    font-style: italic;
+    cursor: pointer;
+
 }
 
 .links a {

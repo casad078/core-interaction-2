@@ -66,6 +66,7 @@ a {
   font-weight: 400;
   font-style: italic;
   color: red;
+  text-decoration: none;
 }
 
 a:hover {

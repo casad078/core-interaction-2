@@ -176,6 +176,7 @@ button {
   position: fixed;
   top: 0;
   padding: 20px;
+  cursor: pointer;
 }
 
 button:hover {

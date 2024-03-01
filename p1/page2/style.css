@@ -1,40 +1,129 @@
 * {
-    color: white;
     font-family: anth, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: large;
+    font-size: 16px;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 body {
-    background-color: black;
+    background-color: #E8E8E8;
+    overflow-x: hidden;
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+article {
+    padding-top: 100px;
 }
 
 p {
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    line-height: 50px;;
     text-align: justify;
-    background-color: white;
+    padding-bottom: 50px;
+    cursor: default;
+    margin-bottom: 100px;
+    animation:fadeInUp 1s ease backwards;
 }
 
-p:hover {
-    background-color: black;
-}
+#outerCircleText {
+    color: #000;
+    position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;
+    }
+    #outerCircleText div {position: relative;}
+    #outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
 
-#link {
-    text-align: center;
-    padding: 5px;
-    display: inline;
-    text-decoration: none;
-    font-style: bold;
-    margin-bottom: 20px;
-}
+    
+.one {
+    margin-left: 18%;
+    margin-right: 15%;
+  }
 
-#link:hover {
+.clickable-word {
     color: red;
+    cursor: pointer;
+    font-family: sigurd-semi, sans-serif;
+    font-weight: 400;
     font-style: italic;
-}
+    text-decoration: underline;
+  }
+
+.clickable-word:hover {
+    font-size: 1.1rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .spin1 {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: marquee 90s linear infinite;
+    font-size: 16px;
+  }
+  
+  .spin2 {
+    position: relative;
+    left: 70%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: marquee 90s linear infinite;
+    font-size: 16px;
+  }
+  
+  .spin3 {
+    position: relative;
+    left: 140%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: marquee 90s linear infinite;
+    font-size: 16px;
+  }
+  
+  .spin4 {
+    position: relative;
+    left: 210%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: marquee 90s linear infinite;
+    font-size: 16px;
+  }
+  
+  .spin5 {
+    position: relative;
+    left: 280%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: marquee 90s linear infinite;
+    font-size: 16px;
+  }
+  
+  .spin6 {
+    position: relative;
+    left: 350%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: marquee 90s linear infinite;
+    font-size: 16px;
+  }
+  
+    @keyframes marquee {
+      0% { transform: translateX(180%); }
+      100% { transform: translateX(-800%); }
+    }
+
+    @keyframes fadeInUp{
+        0%{transform:translate(0px, 100px); opacity: 0;}
+        100%{transform:translate(0px, 0); opacity: 1;}
+      }
 

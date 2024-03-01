@@ -113,6 +113,7 @@ span.addEventListener('click', changeColors);
       d = document.createElement('div'); d.id = 'iemsg' + i;
       d.style.height = d.style.width = a + 'px';
       d.appendChild(document.createTextNode(msg[i]));
+      d.style.color = 'red';
       oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
     
      };
@@ -149,6 +150,8 @@ span.addEventListener('click', changeColors);
      document.attachEvent('onmousemove', mouse);
     
     };
+
+
     
     })();
 
@@ -169,3 +172,5 @@ document.addEventListener('DOMContentLoaded', function() {
     marqueeContainer.classList.toggle('hidden');
   });
 });
+
+

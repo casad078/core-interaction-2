@@ -138,10 +138,3 @@ h1 {
 
 }
 
-h2 {
-    color:#E8E8E8;
-    font-size: 500px;
-    position: absolute;
-    top: -450px;
-    mix-blend-mode: color-burn;
-}

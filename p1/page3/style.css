@@ -1,7 +1,217 @@
-color: transparent;
-text-shadow: 0px 0px 12px white;
-transition: text-shadow 0.1s linear;
+body {
+  background-color: black;
+  color: black;
+  cursor: copy;
+}
 
-&:hover { 
-    text-shadow: 0px 0px 1px white;
+body::-webkit-scrollbar {
+  display: none;
+}
+
+article {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 100px;
+  font-family: anth, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+p {
+  padding-bottom: 500px;
+  cursor: pointer;
+  text-align: center;
+  animation:fadeInUp 1s ease backwards;
+  letter-spacing: 1.5px;
+}
+
+#one {
+  padding-top: 200px;
+  color: red;
+  font-family: sigurd-semi, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#two {
+  color: transparent;
+  text-shadow: 0px 0px 1px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
   }
+}
+
+#three {
+  color: transparent;
+  text-shadow: 0px 0px 2px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#four {
+  color: transparent;
+  text-shadow: 0px 0px 3px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#five {
+  color: transparent;
+  text-shadow: 0px 0px 4px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#six {
+  color: transparent;
+  text-shadow: 0px 0px 5px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#six {
+  color: transparent;
+  text-shadow: 0px 0px 6px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#seven {
+  color: transparent;
+  text-shadow: 0px 0px 8px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#eight {
+  color: transparent;
+  text-shadow: 0px 0px 10px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#nine {
+  color: transparent;
+  text-shadow: 0px 0px 20px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#ten {
+  color: transparent;
+  text-shadow: 0px 0px 30px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#eleven {
+  color: transparent;
+  text-shadow: 0px 0px 40px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#twelve {
+  color: transparent;
+  text-shadow: 0px 0px 40px red;
+  transition: text-shadow 0.1s linear;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+#threeten {
+  color: transparent;
+  text-shadow: 0px 0px 40px red;
+  transition: text-shadow 0.1s linear;
+  padding-bottom: 300px;
+
+  &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+
+button {
+  background-color: transparent;
+  color: red;
+  border: none; 
+  position: fixed;
+  top: 0;
+  padding: 20px;
+}
+
+button:hover {
+  font-style: italic;
+}
+
+a {
+  color: transparent;
+  text-shadow: 0px 0px 50px white;
+  transition: text-shadow 0.1s linear;
+    font-family: swear-display, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15vw;
+    position: relative;
+    top: -30px;
+    left: 30px;
+    animation:fadeInUp 1s ease backwards;
+    text-decoration: none;
+
+    &:hover { 
+      text-shadow: 0px 0px 1px red;
+  }
+}
+
+
+.floating-text {
+  position: fixed;
+  font-size: 50px;
+  color: white; 
+  font-family: swear-display, serif;
+  font-weight: 600;
+  font-style: normal;
+  animation:fadeInUp 5s ease backwards;
+  text-shadow: none;
+  z-index: -1;
+  mix-blend-mode:lighten
+}

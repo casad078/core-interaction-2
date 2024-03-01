@@ -1,6 +1,5 @@
 body {
-  background-color: black;
-  color: black;
+  background-color: #E8E8E8;
   cursor: copy;
 }
 
@@ -136,7 +135,7 @@ p {
 
 #eleven {
   color: transparent;
-  text-shadow: 0px 0px 40px red;
+  text-shadow: 0px 0px 35px red;
   transition: text-shadow 0.1s linear;
 
   &:hover { 
@@ -146,7 +145,7 @@ p {
 
 #twelve {
   color: transparent;
-  text-shadow: 0px 0px 40px red;
+  text-shadow: 0px 0px 35px red;
   transition: text-shadow 0.1s linear;
 
   &:hover { 
@@ -156,7 +155,7 @@ p {
 
 #threeten {
   color: transparent;
-  text-shadow: 0px 0px 40px red;
+  text-shadow: 0px 0px 35px red;
   transition: text-shadow 0.1s linear;
   padding-bottom: 300px;
 
@@ -185,7 +184,7 @@ button:hover {
 
 a {
   color: transparent;
-  text-shadow: 0px 0px 50px white;
+  text-shadow: 0px 0px 30px black;
   transition: text-shadow 0.1s linear;
     font-family: swear-display, serif;
     font-weight: 400;
@@ -206,12 +205,11 @@ a {
 .floating-text {
   position: fixed;
   font-size: 50px;
-  color: white; 
+  color: black; 
   font-family: swear-display, serif;
   font-weight: 600;
   font-style: normal;
   animation:fadeInUp 5s ease backwards;
   text-shadow: none;
   z-index: -1;
-  mix-blend-mode:lighten
 }

@@ -1,12 +1,13 @@
 * {
-    color: blanchedalmond;
+    color: black;
     font-family: "ariel", sans-serif;
     font-weight: 300;
     cursor: copy;
+    font-size: 16px;
 }
 
 body{
-    background-color: #000000;
+    background-color: #E8E8E8;
     padding-bottom: 300px;
 }
 

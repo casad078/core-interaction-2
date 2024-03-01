@@ -5,6 +5,7 @@
     font-size: large;
     font-size: 16px;
     transition: background-color 0.5s, color 0.5s;
+    cursor: copy;
 }
 
 body {
@@ -135,6 +136,22 @@ h1 {
     font-size: 8vw;
     position: absolute;
     top: -5vw;
-
+    animation:fadeInUp 1s ease backwards;
 }
 
+#link {
+    color: red; 
+    cursor: pointer;
+    font-family: sigurd-semi, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    position: fixed;
+    left: 50%;
+    bottom: 2rem;
+}
+
+#link:hover {
+    font-size: 3rem;
+}

@@ -6,15 +6,17 @@
     padding: 10px;
     color: white;
     overflow: hidden;
-    font-size: 80px;
     cursor: copy;
 }
 
 h3 {
     color: white;
     font-size: 15vw;
-    padding-top: 15%;
     animation:fadeInUp 1s ease backwards;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 35px;
 }
 
 a {

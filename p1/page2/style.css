@@ -133,9 +133,10 @@ h1 {
     font-family: swear-display, serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 8vw;
+    font-size: 700%;
     position: absolute;
-    top: -5vw;
+    top: -10%;
+    left: 2%;
     animation:fadeInUp 1s ease backwards;
 }
 

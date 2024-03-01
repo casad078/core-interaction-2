@@ -113,7 +113,8 @@ span.addEventListener('click', changeColors);
       d = document.createElement('div'); d.id = 'iemsg' + i;
       d.style.height = d.style.width = a + 'px';
       d.appendChild(document.createTextNode(msg[i]));
-        d.style.color = 'red';
+      d.style.color = 'red';
+      d.style.fontSize = '40px';
       oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
     
      };

@@ -115,3 +115,8 @@ marquee {
     margin-left: -40px;
     margin-right: -40px;
 }
+
+#colorButton:hover {
+    color: red;
+    text-decoration: underline;
+}

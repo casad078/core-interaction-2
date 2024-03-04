@@ -1,32 +1,55 @@
 * {
-    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    color: white;
+    color: #334eac;
+}
 
+body {
+    overflow: hidden;
+    background-color: #f7f2eb;
+    transition: background-color 0.5s ease;
 }
 
 h1 {
-    color: white;
-    font-size: 150px;
+    font-size: 7.5vw;
+    padding: 25px;
+    margin-bottom: -60px;
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 h3 {
-    padding: 0%;
-    position: relative;
-    bottom: 100px;
-    padding-left: 20px;
+    padding: 25px;
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 img {
-    width: 400px;
-    position: fixed;
-    top: -130px;
-    left: 1050px;
+    width: 23%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 a {
     text-decoration: none; 
+    margin-right: 4px;
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    margin-right: 260px;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 70px;
 }
 
 a:hover {
@@ -34,5 +57,61 @@ a:hover {
     text-decoration: underline;
 }
 
+.graphic {
+    width: 120%;
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    margin-bottom: 26.5%;
+}
 
-  
+.photo img {
+    width: 5vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.funny img {
+    width: 5%;
+    position: absolute;
+    left: 50px;
+    top: 75vh;
+}
+
+.logo img {
+    width: 5vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+marquee {
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: italic;
+    animation-duration: 5s;
+    position: absolute;
+    top: 26.5%;
+}
+
+#colorButton {
+    background-color: transparent;
+    border: none;
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-right: -40px;
+}

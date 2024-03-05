@@ -6,7 +6,7 @@
 body {
     overflow: hidden;
     background-color: #f7f2eb;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.8s ease;
 }
 
 h1 {
@@ -140,3 +140,35 @@ marquee {
     0%{transform:translate(0px, 100px); opacity: 0;}
     100%{transform:translate(0px, 0); opacity: 1;}
 }
+
+.star {
+    position: absolute;
+    color: #334EAC;
+    font-size: 20px;
+    animation:fadeInUp 3s ease backwards;
+  }
+  
+  #generateButton {
+    color: #f7f2eb;
+    font-size: 13px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  
+  #generateButton:hover {
+    font-size: 1rem;
+    text-shadow: 0 0 10px #f7f2eb;
+    margin-left: -60px;
+    margin-right: -60px;
+  }

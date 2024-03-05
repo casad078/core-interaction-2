@@ -147,6 +147,7 @@ marquee {
     color: #334EAC;
     font-size: 20px;
     animation:fadeInUp 3s ease backwards;
+    overflow: hidden;
   }
   
   #generateButton {

@@ -30,7 +30,7 @@ function getRandomNumber(min, max) {
 function createStar() {
   const star = document.createElement('span');
   star.classList.add('star');
-  star.textContent = '✦';
+  star.textContent = '✶';
   star.style.left = getRandomNumber(0, window.innerWidth) + 'px';
   star.style.top = getRandomNumber(0, window.innerHeight) + 'px';
   container.appendChild(star);

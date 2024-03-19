@@ -185,3 +185,49 @@ marquee {
     margin-left: 45vw;
     z-index: -1;
 }
+
+@keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+ }
+
+ audio::-webkit-media-controls-panel {
+    background-color: #f7f2eb;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #334eac;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(177,212,224, .7);
+  }
+
+  audio::-webkit-media-controls-current-time-display {
+    color: #334eac;
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #334eac;
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  audio {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    width: 20%;
+  }

@@ -41,13 +41,16 @@ img {
     column-gap: 10px;
     transition: transform 0.3s ease-out;
     z-index: -1;
+    animation: scroll 50s linear infinite;
+    animation-delay: 3s;
   }
 
   .masonry img {
     display: block;
     height: auto;
+    cursor: pointer;
   }
-
+  
   #menu {
     display: flex;
     flex-direction: column;
@@ -92,6 +95,15 @@ img {
     height: 641px;
     overflow:scroll;
     overflow-x:hidden;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
   }
 
   #two::-webkit-scrollbar {

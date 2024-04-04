@@ -77,8 +77,15 @@ img {
     display: block;
     height: auto;
     cursor: pointer;
+    transition: 1s;
   }
   
+  .masonry img:hover {
+    transform: rotateY(180deg);
+    transition: 1s;
+    transform-style: preserve-3d;
+  }
+
   #menu {
     display: flex;
     flex-direction: column;
@@ -100,6 +107,7 @@ img {
   button:hover {
     font-weight: 600;
     cursor: pointer;
+    color: #B8D6EB;
   }
 
   .grid-container {
@@ -125,14 +133,14 @@ img {
     overflow-x:hidden;
   }
 
-  @keyframes scroll {
+@keyframes scroll {
     0% {
       transform: translateY(0);
     }
     100% {
       transform: translateY(-100%);
     }
-  }
+  } 
 
   #two::-webkit-scrollbar {
     display: none;
@@ -183,3 +191,5 @@ img {
   margin-top: 4rem;
   margin-right: 10rem;
 }
+
+/*flip image*/

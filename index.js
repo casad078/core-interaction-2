@@ -45,6 +45,10 @@ function generateStars() {
     generateButton.disabled = true; // Disable the button after generating all stars
   }
 }
-
-
 generateButton.addEventListener('click', generateStars);
+
+
+setTimeout(function() {
+  var loadDiv = document.getElementById('load');
+  loadDiv.style.display = 'none';
+}, 3000);

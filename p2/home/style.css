@@ -13,6 +13,34 @@ body {
      background-color: black;
 }
 
+#load {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  background-color: black;
+}
+
+@keyframes arrows {
+  0%,
+  100% {
+    color: black;
+    transform: translateY(0);
+  }
+  50% {
+    color: #B8D6EB;
+    transform: translateY(20px);
+  }
+}
+
+span {
+  --delay: 0s;
+  animation: arrows 1.5s var(--delay) infinite ease-in;
+  font-size: 50px;
+  padding: 15px;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -41,8 +69,8 @@ img {
     column-gap: 10px;
     transition: transform 0.3s ease-out;
     z-index: -1;
-    animation: scroll 50s linear infinite;
-    animation-delay: 3s;
+    animation: scroll 100s linear infinite;
+    animation-delay: 4s;
   }
 
   .masonry img {

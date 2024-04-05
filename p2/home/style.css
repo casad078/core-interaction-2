@@ -78,6 +78,7 @@ img {
     flex-direction: column;
     padding-top: 50px;
     text-align: left;
+    padding-top: 60px;
   }
 
   button {

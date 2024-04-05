@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileIcon = document.getElementById('mobile-icon');
+    const menu = document.querySelector('.menu');
+
+    mobileIcon.addEventListener('click', function() {
+        menu.classList.toggle('show');
+    });
+});
+
+
 window.addEventListener('load', function() {
     var loadDiv = document.getElementById('load');
     loadDiv.style.display = 'none';

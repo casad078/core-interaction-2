@@ -1,3 +1,5 @@
+//mobile menu//
+
 document.addEventListener('DOMContentLoaded', function() {
     const mobileIcon = document.getElementById('mobile-icon');
     const menu = document.querySelector('.menu');
@@ -7,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
+//loading screen//
 window.addEventListener('load', function() {
     var loadDiv = document.getElementById('load');
     loadDiv.style.display = 'none';

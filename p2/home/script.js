@@ -42,6 +42,7 @@ const images =
     },
     {   
         src: 'collections_images/img4.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -52,6 +53,7 @@ const images =
     },
     {   
         src: 'collections_images/img5.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -61,7 +63,8 @@ const images =
         'messages': false
     },
     {   
-        src: 'collections_images/img6.png', 
+        src: 'collections_images/img6.png',
+        link: 'https://www.coolsymbol.top/', 
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -72,6 +75,7 @@ const images =
     },
     {   
         src: 'collections_images/img7.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -82,6 +86,7 @@ const images =
     },
     {   
         src: 'collections_images/img8.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -92,6 +97,7 @@ const images =
     },
     {   
         src: 'collections_images/img9.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -102,6 +108,7 @@ const images =
     },
     {   
         src: 'collections_images/img10.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -112,6 +119,7 @@ const images =
     },
     {   
         src: 'collections_images/img11.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -122,6 +130,7 @@ const images =
     },
     {   
         src: 'collections_images/img12.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':true,
         'cards': false,
@@ -132,6 +141,7 @@ const images =
     },
     {   
         src: 'collections_images/img13.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -142,6 +152,7 @@ const images =
     },
     {   
         src: 'collections_images/img14.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': true,
         'photograph':false,
         'cards': false,
@@ -152,6 +163,7 @@ const images =
     },
     {   
         src: 'collections_images/img15.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': true,
         'photograph':false,
         'cards': false,
@@ -162,6 +174,7 @@ const images =
     },
     {   
         src: 'collections_images/img16.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': true,
         'photograph':false,
         'cards': false,
@@ -172,6 +185,7 @@ const images =
     },
     {   
         src: 'collections_images/img17.png',
+        link: 'https://www.coolsymbol.top/',
         'postcard': true,
         'photograph':false,
         'cards': false,
@@ -182,6 +196,7 @@ const images =
     },
     {   
         src: 'collections_images/img18.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': false,
@@ -192,6 +207,7 @@ const images =
     },
     {   
         src: 'collections_images/img19.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': false,
@@ -201,7 +217,8 @@ const images =
         'messages': false
     },
     {   
-        src: 'collections_images/img20.png', 
+        src: 'collections_images/img20.png',
+        link: 'https://www.coolsymbol.top/', 
         'postcard': false,
         'photograph':false,
         'cards': true,
@@ -212,6 +229,7 @@ const images =
     },
     {   
         src: 'collections_images/img21.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': false,
@@ -222,6 +240,7 @@ const images =
     },
     {   
         src: 'collections_images/img22.png', 
+        link: 'https://www.coolsymbol.top/',
         'postcard': false,
         'photograph':false,
         'cards': false,
@@ -231,34 +250,44 @@ const images =
         'messages': false
     },
     {   
-        src: 'collections_images/img23.png', 
+        src: 'collections_images/img23.png',
+        link: 'https://www.coolsymbol.top/', 
     },
     {   
         src: 'collections_images/img24.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img25.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img26.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img27.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img28.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img29.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img30.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img31.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img32.png', 
+        link: 'https://www.coolsymbol.top/',
     },
     {   
         src: 'collections_images/img33.png', 

@@ -406,4 +406,8 @@ p {
   .masonry {
     margin-bottom: 200px;
   }
+
+  #load {
+    width: 30%;
+  }
 }

@@ -21,13 +21,13 @@
 <div id="menu">
   <h4>filter by</h4>
   <!--these will be the buttons that filter through the images-->
-    <button id="postcard" data-trait="postcard">postcards</button>
-    <button id="photographs" data-trait="photographs">photographs</button>
-    <button id="cards" data-trait="cards">buisness cards</button>
-    <button id="prints" data-trait="prints">prints</button>
-    <button id="collaged" data-trait="collaged">collaged images</button>
-    <button id="stickers" data-trait="stickers">stickers</button>
-    <button id="messages" data-trait="messages">messages</button>
+    <button id="postcard" class="postcard" onclick="togglePostcards()">postcards</button>
+    <button id="photograph" class="photograph" onclick="togglePhotograph()">photographs</button>
+    <button id="cards" class="cards" onclick="toggleCards()">buisness cards</button>
+    <button id="prints" class="prints" onclick="togglePrints()">prints</button>
+    <button id="collaged" class="collaged" onclick="toggleCollaged()">collaged images</button>
+    <button id="stickers" class="stickers" onclick="toggleStickers()">stickers</button>
+    <button id="gifts" class="gifts" onclick="toggleGifts()">gifts and messages</button>
 </div>
 </div>
 
@@ -38,13 +38,13 @@
   </div>
   <nav class="menu">
      <h4>filter by</h4>
-<button id="postcard" data-trait="postcard">postcards</button>
-<button id="photographs" data-trait="photographs">photographs</button>
-<button id="cards" data-trait="cards">buisness cards</button>
-<button id="prints" data-trait="prints">prints</button>
-<button id="collaged" data-trait="collaged">collaged images</button>
-<button id="stickers" data-trait="stickers">stickers</button>
-<button id="messages" data-trait="messages">messages</button>
+<button id="postcard" onclick="togglePostcards()">postcards</button>
+<button id="photographs" onclick="togglePhotograph()">photographs</button>
+<button id="cards" onclick="toggleCards()">buisness cards</button>
+<button id="prints" onclick="togglePrints()">prints</button>
+<button id="collaged" onclick="toggleCollaged()">collaged images</button>
+<button id="stickers" onclick="toggleStickers()">stickers</button>
+<button id="messages" onclick="toggleGifts()">messages</button>
   </nav>
 </div>
 
@@ -63,11 +63,21 @@
         <!-- <h3>a collection of sentiment</h3> -->
       </div>
       </div>
-<div class="littleguy">
-  <img src="./collections_images/chibi.png">
+
+      <div class="littleguy" id="little-guy">
+        <img src="./collections_images/chibi.png">
+      </div>
+<div class="bio">
+<div class="text">
+  <p> hello!</p>
+</div>
 </div>
 <div class="otter">
   <img src="./collections_images/otter.png">
+</div>
+
+<div class="click-here">
+  <h4>click them . . . politely</h4>
 </div>
 
 </body>

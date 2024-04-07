@@ -51,39 +51,74 @@ const images =
     [
     { 
         src: 'collections_images/img1.png', 
-        link: 'https://www.coolsymbol.top/',
-        'category' : ['cards']
+        back : 'backs/img1b.png',
+        type : "Card.",
+        place : "The MoCCA Illustration Festival.",
+        date : "Saturday, March 16th. 2024.",
+        desc : "This card, positioned at the very top of my wall, acts as a parallel to my own wall; covered in art, frames, and people.",
+        artist : "Chuchu Wang. @chuchuwang_art",
+        category : ['cards']
     },
     { 
         src: 'collections_images/img2.png', 
-        link: 'https://www.coolsymbol.top/',
-        'category' : ['cards']
+        category : ['cards'],
+        back : 'backs/img2b.png',
+        type : "Card.",
+        place : "The MoCCA Illustration Festival.",
+        date : "Saturday, March 16th. 2024.",
+        desc : "I have been a collector of art buisness cards for about 2 or so years. It's a way to display a wide variety of art with limited space, something I was very interested in. And MoCCA had a lot of buisness cards.",
+        artist : "Grace Kegel. @gess.wut"
     },
     {   
         src: 'collections_images/img3.png', 
-        link: 'https://www.coolsymbol.top/',
-        'category' : ['cards']
+        'category' : ['cards'],
+        'back' : 'backs/img3b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "I love the color green. And it kinda looks like water. Slay.",
+        'artist' : "Yuqi Liu. @yuqianita"
 
     },
     {   
         src: 'collections_images/img4.png', 
-        link: 'https://www.coolsymbol.top/',
-        'category' : ['cards']
+        'category' : ['cards'],
+        'back' : 'backs/img4b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "SHROMPU, in a green frame, kinda like an old windows MSpaint canvas. Need I say more?",
+        'artist' : "Alexander Laira. @alexanderlaird"
     },
     {   
         src: 'collections_images/img5.png', 
-        link: 'https://www.coolsymbol.top/',
-        'category' : ['cards']
+        'category' : ['cards'],
+        'back' : 'backs/img5b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "I'm a big fan of the doodle style, and the bright saturated colors. Reminds me of the old Fancy Nancy books I used to read as a kid.",
+        'artist' : "Chalzea Xu. @chalzea_art"
     },
     {   
         src: 'collections_images/img6.png',
-        link: 'https://www.coolsymbol.top/', 
-        'category' : ['cards']
+        'category' : ['cards'],
+        'back' : 'backs/img6b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "Cowboys. I have a plethora of Red Dead Redemption inspired things in my room, and this card adds to the aesthetic.",
+        'artist' : "Marcos Santos. @mar_scribbles"
     },
     {   
         src: 'collections_images/img7.png', 
-        link: 'https://www.coolsymbol.top/',
-        'category' : ['cards']
+        'category' : ['cards'],
+        'back' : 'backs/img7b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "Everyone stop. Go look at their website. Cry at how beautiful it is. Ok you can move on now.",
+        'artist' : "Toma Vagner. tomavagner.com"
     },
     {   
         src: 'collections_images/img8.png', 
@@ -308,28 +343,64 @@ const images =
     },
     ];
 
+    
     function displayImages(images) {
         const container = document.getElementById('masonry');
         container.innerHTML = ''; // Clear previous images
-      
+         
         images.forEach(image => {
-                const imgElement = document.createElement('a');
-                imgElement.href = image.link;
-                const img = document.createElement('img');
-                img.src = image.src;
-                imgElement.appendChild(img);
-                container.appendChild(imgElement);
-
-                if(image.category){
-                    console.log(image.category.toString().replaceAll(',', ' '));
-                    img.classList = image.category.toString().replaceAll(',', ' ')
-                }
-                
+            // Create image element
+            const img = document.createElement('img');
+            img.src = image.src;
+    
+            // Append image to container
+            container.appendChild(img);
+    
+            // Add categories as classes to the image
+            if (image.category) {
+                img.classList = image.category.toString().replaceAll(',', ' ');
+            }
+    
+            // Add click event listener to each image
+            img.addEventListener('click', function() {
+                showModal(image);
+            });
         });
-
-        
     }
-
+    
+    function showModal(image) {
+        const modal = document.getElementById('myModal');
+        const modalImg = document.getElementById('modalImage');
+        const backImg = document.getElementById('backImage');
+        const type = document.getElementById('type');
+        const place = document.getElementById('place');
+        const date = document.getElementById('date');
+        const desc = document.getElementById('desc');
+        const artist = document.getElementById('artist');
+    
+        modal.style.display = "block";
+        backImg.src = image.back || ''; // If 'back' image is not available, display an empty string
+        modalImg.src = image.src;
+        type.textContent = image.type;
+        place.textContent = image.place;
+        date.textContent = image.date;
+        desc.textContent = image.desc;
+        artist.textContent = image.artist;
+    
+        // Close modal when close button is clicked
+        const closeBtn = document.getElementsByClassName('close')[0];
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+    
+        // Close modal when clicking outside the modal content
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    }
+    
     displayImages(images);
 
 
@@ -416,3 +487,5 @@ const images =
 
         document.querySelector('.gifts').classList.toggle('color-changed');
     }
+
+    

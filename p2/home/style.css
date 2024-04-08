@@ -478,6 +478,10 @@ img {
     display: none; 
   }
 
+ h4 {
+    padding-left: 25px;
+  }
+
   #one {
     display: none;
   }
@@ -526,7 +530,7 @@ img {
     color: white;
     padding: 20px;
     width: 90%;
-    height: 80%;
+    height: 95%;
 }
 
 @keyframes fadeInUp {

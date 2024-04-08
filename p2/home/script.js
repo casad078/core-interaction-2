@@ -51,23 +51,23 @@ const images =
     [
     { 
         src: 'collections_images/img1.png', 
-        back : 'backs/img1b.png',
-        type : "Card.",
-        place : "The MoCCA Illustration Festival.",
-        date : "Saturday, March 16th. 2024.",
-        desc : "This card, positioned at the very top of my wall, acts as a parallel to my own wall; covered in art, frames, and people.",
-        artist : "Chuchu Wang. @chuchuwang_art",
-        category : ['cards']
+        'category' : ['cards'],
+        'back' : 'backs/img1b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "This card, positioned at the very top of my wall, acts as a parallel to my own wall; covered in art, frames, and people.",
+        'artist' : "Chuchu Wang. @chuchuwang_art"
     },
     { 
         src: 'collections_images/img2.png', 
-        category : ['cards'],
-        back : 'backs/img2b.png',
-        type : "Card.",
-        place : "The MoCCA Illustration Festival.",
-        date : "Saturday, March 16th. 2024.",
-        desc : "I have been a collector of art buisness cards for about 2 or so years. It's a way to display a wide variety of art with limited space, something I was very interested in. And MoCCA had a lot of buisness cards.",
-        artist : "Grace Kegel. @gess.wut"
+        'category' : ['cards'],
+        'back' : 'backs/img2b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "I have been a collector of art buisness cards for about 2 or so years. It's a way to display a wide variety of art with limited space, something I was very interested in. And MoCCA had a lot of buisness cards.",
+        'artist' : "Grace Kegel. @gess.wut"
     },
     {   
         src: 'collections_images/img3.png', 
@@ -122,127 +122,112 @@ const images =
     },
     {   
         src: 'collections_images/img8.png', 
-        link: 'https://www.coolsymbol.top/',
-        'category' : ['cards']
+        'category' : ['cards'],
+        'back' : '',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "Everyone stop. Go look at their website. Cry at how beautiful it is. Ok you can move on now.",
+        'artist' : "Toma Vagner. tomavagner.com"
     },
     {   
         src: 'collections_images/img9.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['cards']
     },
     {   
         src: 'collections_images/img10.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['cards']
     },
     {   
         src: 'collections_images/img11.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['cards']
     },
     {   
         src: 'collections_images/img12.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['photograph']
     },
     {   
-        src: 'collections_images/img13.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img13.png',
         'category' : ['cards']
     },
     {   
-        src: 'collections_images/img14.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img14.png',
         'category' : ['prints']
     },
     {   
-        src: 'collections_images/img15.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img15.png',
         'category' : ['postcard']
     },
     {   
-        src: 'collections_images/img16.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img16.png',
         'category' : ['postcard']
     },
     {   
         src: 'collections_images/img17.png',
-        link: 'https://www.coolsymbol.top/',
         'category' : ['postcard']
     },
     {   
-        src: 'collections_images/img18.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img18.png',
         'category' : ['collaged']
     },
     {   
-        src: 'collections_images/img19.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img19.png',
         'category' : ['collaged']
     },
     {   
         src: 'collections_images/img20.png',
-        link: 'https://www.coolsymbol.top/', 
         'category' : ['cards']
     },
     {   
-        src: 'collections_images/img21.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img21.png',
         'category' : ['sticker']
     },
     {   
-        src: 'collections_images/img22.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img22.png',
         'category' : ['collaged']
     },
     {   
-        src: 'collections_images/img23.png',
-        link: 'https://www.coolsymbol.top/', 
+        src: 'collections_images/img23.png', 
         'category' : ['collaged']
     },
     {   
-        src: 'collections_images/img24.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img24.png',
         'category' : ['collaged']
     },
     {   
-        src: 'collections_images/img25.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img25.png',
         'category' : ['collaged']
     },
     {   
-        src: 'collections_images/img26.png', 
-        link: 'https://www.coolsymbol.top/',
+        src: 'collections_images/img26.png',
         'category' : ['collaged']
+    },
+    {   
+        src: 'collections_images/dmc2.png', 
+        'category' : ['poster']
     },
     {   
         src: 'collections_images/img27.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['photograph']
     },
     {   
         src: 'collections_images/img28.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['photograph']
     },
     {   
         src: 'collections_images/img29.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['stickers']
     },
     {   
         src: 'collections_images/img30.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['gifts']
     },
     {   
         src: 'collections_images/img31.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['gifts']
     },
     {   
         src: 'collections_images/img32.png', 
-        link: 'https://www.coolsymbol.top/',
         'category' : ['cards']
     },
     {   
@@ -320,6 +305,10 @@ const images =
     {   
         src: 'collections_images/img51.png', 
         'category' : ['gifts']
+    },
+    {   
+        src: 'collections_images/dmc1.png', 
+        'category' : ['poster']
     },
     {   
         src: 'collections_images/img52.png', 
@@ -488,4 +477,15 @@ const images =
         document.querySelector('.gifts').classList.toggle('color-changed');
     }
 
+    function togglePoster(){
+        document.querySelectorAll('#masonry img').forEach(el => {
+            el.classList.toggle('hide')
+        })
+        console.log(document.querySelectorAll('.poster'))
+        document.querySelectorAll('.poster').forEach(el => {
+            el.classList.toggle('hide')
+        })
+
+        document.querySelector('.poster').classList.toggle('color-changed');
+    }
     

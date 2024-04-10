@@ -336,12 +336,14 @@ const images =
     function displayImages(images) {
         const container = document.getElementById('masonry');
         container.innerHTML = ''; // Clear previous images
-         
+        
+        const shuffledImages = images.sort(() => Math.random() - 0.5);
+        
         images.forEach(image => {
             // Create image element
             const img = document.createElement('img');
             img.src = image.src;
-    
+
             // Append image to container
             container.appendChild(img);
     
@@ -392,8 +394,39 @@ const images =
     
     displayImages(images);
 
+    // Variable to track the animation state
+let animationRunning = true;
+
+// Function to start the scroll animation
+function startScrollAnimation() {
+    const masonry = document.getElementById('masonry');
+    masonry.classList.add('scrolling');
+}
+
+// Function to stop the scroll animation
+function stopScrollAnimation() {
+    const masonry = document.getElementById('masonry');
+    masonry.classList.remove('scrolling');
+}
+
+// Function to toggle the animation state
+function toggleAnimation() {
+    if (animationRunning) {
+        stopScrollAnimation();
+    } else {
+        startScrollAnimation();
+    }
+    animationRunning = !animationRunning; // Toggle the animation state
+}
+
+// Call startScrollAnimation() to start scrolling when the page loads
+window.addEventListener('load', function() {
+    startScrollAnimation();
+});
 
     function togglePostcards(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -406,6 +439,8 @@ const images =
     }
 
     function toggleCards(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -418,6 +453,8 @@ const images =
     }
 
     function togglePhotograph(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -430,6 +467,8 @@ const images =
     }
 
     function togglePrints(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -442,6 +481,8 @@ const images =
     }
 
     function toggleCollaged(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -454,6 +495,8 @@ const images =
     }
 
     function toggleStickers(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -466,6 +509,8 @@ const images =
     }
 
     function toggleGifts(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -478,6 +523,8 @@ const images =
     }
 
     function togglePoster(){
+        toggleAnimation();
+
         document.querySelectorAll('#masonry img').forEach(el => {
             el.classList.toggle('hide')
         })
@@ -488,4 +535,5 @@ const images =
 
         document.querySelector('.poster').classList.toggle('color-changed');
     }
+    
     

@@ -60,16 +60,18 @@ img {
     column-gap: 10px;
     transition: transform 0.3s ease-out;
     z-index: -1;
-    animation: scroll 200s linear infinite;
-    animation-delay: 2s;
+    animation:fadeInUp 3s ease backwards;
   }
+
+  #masonry.scrolling {
+    animation: scroll 90s linear infinite; /* Adjust duration and timing function as needed */
+}
 
   .masonry img {
     display: block;
     height: auto;
     cursor: pointer;
     transition: 1s;
-    
     animation:fadeInUp 3s ease backwards;
   }
   
@@ -77,6 +79,7 @@ img {
     transform: rotateY(180deg);
     transition: 1s;
     transform-style: preserve-3d;
+    filter: grayscale(1);
   }
 
   #menu {
@@ -84,7 +87,7 @@ img {
     flex-direction: column;
     padding-top: 50px;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 40px;
   }
 
   #menu h4 {
@@ -116,10 +119,6 @@ img {
   color: white;
 }
 
-.postcard.masonry{
-  animation: none;
-}
-
 .photograph {
   color: white;
 }
@@ -127,7 +126,7 @@ img {
 .cards {
   color: white;
 }
-
+ 
 .prints {
   color: white;
 }
@@ -171,15 +170,6 @@ img {
     overflow-x:hidden;
   }
 
-/* @keyframes scroll {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(-100%);
-    }
-  }  */
-
   #two::-webkit-scrollbar {
     display: none;
   }
@@ -189,7 +179,7 @@ img {
     grid-row: 1;
     color: white; 
     margin-left: -10px;
-    margin-bottom: -70px;
+    margin-bottom: -60px;
     text-align: left;
     background-color: transparent;
   }
@@ -444,6 +434,7 @@ img {
   margin-top: 55px;
   margin-left: 200px;
   transition: 1s;
+  display: none;
 }
 
 .rose img:hover {
@@ -451,6 +442,34 @@ img {
   transition: 1s;
   transform-style: preserve-3d;
 }
+
+@keyframes flip {
+  from {
+      transform: rotateY(0deg);
+  }
+  to {
+      transform: rotateY(360deg);
+  }
+}
+
+@keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.flip-once {
+  animation: flip-animation 1s; /* Adjust the duration of the flip animation as needed */
+}
+
+@keyframes flip-animation {
+  0% {
+      transform: rotateY(0deg);
+  }
+  100% {
+      transform: rotateY(180deg);
+  }
+}
+
 
 /* phone size */
 @media (max-width: 500px) { 
@@ -468,6 +487,7 @@ img {
     animation: none;
     column-count: 0px;
     margin-right: 3rem;
+    animation: none;
   }
 
   .littleguy {
@@ -498,7 +518,7 @@ img {
 
   .mobile {
     display: flex;
-    z-index: 60;
+    z-index: 40;
   }
 
   .click-here {
@@ -508,6 +528,10 @@ img {
   .masonry {
     margin-bottom: 200px;
   }
+
+  #masonry.scrolling {
+    animation: none; 
+}
 
   .modal {
     display: none;

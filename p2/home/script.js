@@ -293,7 +293,7 @@ const images =
     {   
         src: 'collections_images/img25.png',
         'category' : ['collaged'],
-        'back' : 'backs/img25b.png',
+        'back' : 'collections_images/img25.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
@@ -618,6 +618,246 @@ const images =
         'desc' : "",
         'artist' : ""
     },
+    {   
+        src: 'collections_images/img57.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img58.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img59.png', 
+        'category' : ['poster'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img60.png', 
+        'category' : ['photograph'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img61.png', 
+        'category' : ['postcard'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img62.png', 
+        'category' : ['prints'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img63.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img64.png', 
+        'category' : ['collaged'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img65.png', 
+        'category' : ['collaged'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img66.png', 
+        'category' : ['photograph'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img67.png', 
+        'category' : ['collaged'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img68.png', 
+        'category' : ['gifts'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img69.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img70.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img71.png', 
+        'category' : ['photograph'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img72.png', 
+        'category' : ['photograph'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img73.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img74.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img75.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img76.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img77.png', 
+        'category' : ['gifts'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img78.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img79.png', 
+        'category' : ['cards'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    },
+    {   
+        src: 'collections_images/img80.png', 
+        'category' : ['stickers'],
+        'back' : 'backs/img56b.png',
+        'type' : "Card.",
+        'place' : "The MoCCA Illustration Festival.",
+        'date' : "Saturday, March 16th. 2024.",
+        'desc' : "",
+        'artist' : ""
+    }
     ];
 
     

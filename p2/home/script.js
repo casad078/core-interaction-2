@@ -127,8 +127,8 @@ const images =
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
-        'desc' : "Everyone stop. Go look at their website. Cry at how beautiful it is. Ok you can move on now.",
-        'artist' : "Artist: Toma Vagner. tomavagner.com"
+        'desc' : "",
+        'artist' : "Artist: Flora Bai. @florabai.jpg"
     },
     {   
         src: 'collections_images/img9.png', 
@@ -138,7 +138,7 @@ const images =
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Hannah Byers. @snillywilly"
     },
     {   
         src: 'collections_images/img10.png', 
@@ -148,7 +148,7 @@ const images =
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Ivy Ma. @ivymajia"
     },
     {   
         src: 'collections_images/img11.png', 
@@ -158,17 +158,17 @@ const images =
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Xiao Hua Yang. @dawnwatch"
     },
     {   
         src: 'collections_images/img12.png', 
         'category' : ['photograph'],
         'back' : 'backs/img12b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""  
+        'type' : "Polaroid.",
+        'place' : "New York",
+        'date' : "2023",
+        'desc' : "Milo. He's facinated by the sink for some reason." ,
+        'artist': "Taken by my sister."
     },
     {   
         src: 'collections_images/img13.png',
@@ -177,8 +177,8 @@ const images =
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'desc' : "MORE COWBOYS. And it's a cat. And he's got an avocado! thanks.",
+        'artist' : "Artist: Kat. @avokatdor"
     },
     {   
         src: 'collections_images/img14.png',
@@ -187,676 +187,608 @@ const images =
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'desc' : "The missprint of a really pretty floral pattern."
     },
     {   
         src: 'collections_images/img15.png',
         'category' : ['postcard'],
         'back' : 'backs/img15b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'type' : "Postcard.",
+        'place' : "The MoMA.",
+        'date' : "2023.",
+        'desc' : "I thought it embodied my wish to frolic in a field. I am now aware of it's depressing story :(.",
+        'artist' : "Artist: Andrew Wyeth, 1948"
     },
     {   
         src: 'collections_images/img16.png',
-        'category' : ['postcard'],
+        'category' : ['prints'],
         'back' : 'backs/img16b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Print.",
+        'place' : "Parson's 2023 Illustration Thesis Exhibit.",
+        'date' : "March 25th, 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Clara Waldheim. @comicbook_clara"
     },
     {   
         src: 'collections_images/img17.png',
         'category' : ['postcard'],
         'back' : 'backs/img17b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Postcard.",
+        'place' : "Printed Matter's 2022 NY Art Book Fair.",
+        'date' : " Sunday October 16, 2022",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Rúna Thorkelsdóttir. www.BoekieWoekie.com "
     },
     {   
         src: 'collections_images/img18.png',
         'category' : ['collaged'],
         'back' : 'backs/img18b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Collaged print.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/img19.png',
         'category' : ['collaged'],
         'back' : 'backs/img19b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Collaged print.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/img20.png',
         'category' : ['cards'],
         'back' : 'backs/img20b.png',
         'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'place' : "Parson's E4 Shop.",
+        'date' : "November 9, 2022.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Melanie Wu"
     },
     {   
         src: 'collections_images/img21.png',
         'category' : ['sticker'],
         'back' : 'backs/img21b.png',
-        'type' : "Card.",
+        'type' : "Sticker.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'desc' : "It's a cat dressed as a witch flying on a broom. I literally do not have to elaborate.",
+        'artist' : "Artist: Kat. @avokatdor"
     },
     {   
         src: 'collections_images/img22.png',
         'category' : ['collaged'],
         'back' : 'backs/img22b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'type' : "Collaged print.",
+        'date' : "2023.",
+        'desc' : "It's Pedro Pascal. Do I NEED to say more??",
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/img23.png', 
         'category' : ['collaged'],
         'back' : 'backs/img23b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Collaged print.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/img24.png',
         'category' : ['collaged'],
         'back' : 'backs/img24b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Collaged print.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/img25.png',
         'category' : ['collaged'],
         'back' : 'collections_images/img25.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Collaged print.",
+        'date' : "202.3",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/img26.png',
         'category' : ['collaged'],
         'back' : 'backs/img26b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Collaged print.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/dmc2.png', 
-        'category' : ['poster']
+        'category' : ['poster'],
+        'back': 'collections_images/dmc2.png',
+        'type': "Poster.",
+        'date': "2024.",
+        'artist': "Artist: Dani Casado."
     },
     {   
         src: 'collections_images/img27.png', 
         'category' : ['photograph'],
         'back' : 'backs/img27b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Polaroid.",
+        'place' : "New York.",
+        'date' : "2019.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img28.png', 
         'category' : ['photograph'],
         'back' : 'backs/img28b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Polaroid.",
+        'place' : "Manhattan, New York",
+        'date' : "2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img29.png', 
         'category' : ['stickers'],
         'back' : 'backs/img29b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Sticker.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: @royarach"
     },
     {   
         src: 'collections_images/img30.png', 
         'category' : ['gifts'],
         'back' : 'backs/img30b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Message.",
+        'date' : "May 2022.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Mr. Wong"
     },
     {   
         src: 'collections_images/img31.png', 
         'category' : ['gifts'],
         'back' : 'backs/img31b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Wrapper.",
+        'date' : "2022.",
         'desc' : "",
-        'artist' : ""
     },
     {   
         src: 'collections_images/img32.png', 
         'category' : ['cards'],
         'back' : 'backs/img32b.png',
         'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'place' : "Bayside.",
+        'date' : "2022",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Helaine Soller"
     },
     {   
         src: 'collections_images/img33.png', 
         'category' : ['cards'],
         'back' : 'backs/img33b.png',
         'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'place' : "Parson's 2023 Illustration Thesis Exhibit.",
+        'date' : "March 25th, 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Lil Guglich"
     },
     {   
         src: 'collections_images/img34.png', 
         'category' : ['cards'],
         'back' : 'backs/img34b.png',
         'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'place' : "Parson's 2023 Illustration Thesis Exhibit.",
+        'date' : "March 25th, 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Gaelin Zhao. gaelinzhao.com"
     },
     {   
         src: 'collections_images/img35.png', 
         'category' : ['collaged'],
         'back' : 'backs/img35b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Collaged print.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
-    },
-    {   
-        src: 'collections_images/img36.png', 
-        'category' : ['gifts'],
-        'back' : 'backs/img36b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me and a random magazine."
     },
     {   
         src: 'collections_images/img37.png', 
         'category' : ['photograph'],
         'back' : 'backs/img37b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Pholaroid. Printed from digital image.",
+        'place' : "New York",
+        'date' : "2015",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by my mom. "
     },
     {   
         src: 'collections_images/img38.png', 
         'category' : ['stickers'],
         'back' : 'backs/img38b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Paper cut out.",
+        'date' : "2018",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: me, but heavily inspired by the Untitled Goose Game."
     },
     {   
         src: 'collections_images/img39.png', 
         'category' : ['gifts'],
         'back' : 'backs/img39b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Bite mark on bristol paper.",
+        'date' : "2023",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Milo the cat."
     },
     {   
         src: 'collections_images/img40.png',
         'category' : ['prints'],
         'back' : 'backs/img40b.png',
-        'type' : "Card.",
+        'type' : "Zine.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Joy Freudeart. @Joyfruedeart"
     },
     {   
         src: 'collections_images/img41.png', 
         'category' : ['photograph'],
         'back' : 'backs/img41b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Polaroid.",
+        'place' : "New York",
+        'date' : "2017.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img42.png', 
         'category' : ['gifts'],
         'back' : 'backs/img42b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Fruit gummy wrapper.",
+        'place' : "Parsons.",
+        'date' : "2022",
         'desc' : "",
-        'artist' : ""
     },
     {   
         src: 'collections_images/img43.png',
         'category' : ['photograph'] ,
         'back' : 'backs/img43b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Polaroid. Printed from digital photo.",
+        'place' : "New York.",
+        'date' : "August 20th, 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img44.png', 
         'category' : ['photograph'],
         'back' : 'backs/img44b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Polaroid. Printed from digital photo.",
+        'place' : "New York.",
+        'date' : "December 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img45.png', 
         'category' : ['gifts'],
         'back' : 'backs/img45b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Note on Post-it.",
+        'date' : "2018",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Carol."
     },
     {   
         src: 'collections_images/img46.png', 
         'category' : ['photograph'],
         'back' : 'backs/img46b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Polaroid.",
+        'place' : "New York.",
+        'date' : "2019.",
         'desc' : "",
-        'artist' : ""
-    },
-    {   
-        src: 'collections_images/img47.png', 
-        'category' : ['gifts'],
-        'back' : 'backs/img47b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img48.png', 
         'category' : ['photograph'],
         'back' : 'backs/img48b.png',
-        'type' : "Card.",
+        'type' : "Polaroid.",
         'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'date' : "2016.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me"
     },
     {   
         src: 'collections_images/img49.png', 
         'category' : ['gifts'],
         'back' : 'backs/img49b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Doodle.",
+        'date' : "2022.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Nicole Correaa"
     },
     {   
         src: 'collections_images/img50.png', 
         'category' : ['gifts'],
         'back' : 'backs/img50b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Doodle on recipt.",
+        'place' : "Parsons.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Jessica Hyein"
     },
     {   
         src: 'collections_images/img51.png', 
         'category' : ['gifts'],
         'back' : 'backs/img51b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Oragami.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Carol"
     },
     {   
         src: 'collections_images/dmc1.png', 
-        'category' : ['poster']
+        'category' : ['poster'],
+        'back' : 'collections_images/dmc1.png',
+        'type' : "Poster.",
+        'date' : "2024",
+        'desc' : "",
+        'artist' : "Dani Casado"
     },
     {   
         src: 'collections_images/img52.png', 
         'category' : ['gifts'],
         'back' : 'backs/img52b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Doodle.",
+        'place' : "Parsons.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Lizzy"
     },
     {   
         src: 'collections_images/img53.png', 
         'category' : ['photograph'],
         'back' : 'backs/img53b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Polaroid.",
+        'place' : "New York",
+        'date' : "1990s",
         'desc' : "",
-        'artist' : ""
-    },
-    {   
-        src: 'collections_images/img54.png', 
-        'category' : ['gifts'],
-        'back' : 'backs/img54b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
     },
     {   
         src: 'collections_images/img55.png', 
         'category' : ['photograph'],
         'back' : 'backs/img55b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Photo.",
+        'place' : "New York",
+        'date' : "2005.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by Kathy."
     },
     {   
         src: 'collections_images/img56.png', 
         'category' : ['collaged'],
         'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'type' : "Magazine cut out.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Me and a random magazine."
     },
     {   
         src: 'collections_images/img57.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img57b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Raquel A. Bumgarner. @fiarfli"
     },
     {   
         src: 'collections_images/img58.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img58b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
-    },
-    {   
-        src: 'collections_images/img59.png', 
-        'category' : ['poster'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Gabriella Ellis. @okgardiellies"
     },
     {   
         src: 'collections_images/img60.png', 
         'category' : ['photograph'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img60b.png',
+        'type' : "Polaroid.",
+        'place' : "New York.",
+        'date' : "2017",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img61.png', 
         'category' : ['postcard'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
+        'back' : 'backs/img61b.png',
+        'type' : "Postcard.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
-    },
-    {   
-        src: 'collections_images/img62.png', 
-        'category' : ['prints'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
-        'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Janelly Rodriguez. @Jellyjanelly_"
     },
     {   
         src: 'collections_images/img63.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img63b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Alexander Laird. @alexanderlaird"
     },
     {   
         src: 'collections_images/img64.png', 
         'category' : ['collaged'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img64b.png',
+        'type' : "Magazine cut out on Bristolpad Paper.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Me and a random magazine."
     },
     {   
         src: 'collections_images/img65.png', 
         'category' : ['collaged'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img65b.png',
+        'type' : "Magazine cut out on Bristolpad Paper.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Me and a random magazine."
     },
     {   
         src: 'collections_images/img66.png', 
         'category' : ['photograph'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img66b.png',
+        'type' : "Polaroid.",
+        'place' : "Massachusetts (probably).",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
     },
     {   
         src: 'collections_images/img67.png', 
         'category' : ['collaged'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img67b.png',
+        'type' : "Magazine cut out on Bristolpad Paper.",
+        'date' : "2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Me and a random magazine."
     },
     {   
         src: 'collections_images/img68.png', 
         'category' : ['gifts'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img68b.png',
+        'type' : "Pin packaging.",
+        'place' : "Brooklyn, New York.",
+        'date' : "October 13th, 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: The Crane Wives."
     },
     {   
         src: 'collections_images/img69.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img69b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Erica Hoelting. @Ericahoeltingart"
     },
     {   
         src: 'collections_images/img70.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img70b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Ande Wittenmeier. @andewitt.art"
     },
     {   
         src: 'collections_images/img71.png', 
         'category' : ['photograph'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img71b.png',
+        'type' : "Polaroid.",
+        'place' : "New York.",
+        'date' : "2018.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img72.png', 
         'category' : ['photograph'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'back' : 'backs/img72b.png',
+        'type' : "Polaroid..",
+        'place' : "New York.",
+        'date' : "November 8th, 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Taken by me."
     },
     {   
         src: 'collections_images/img73.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img73b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Arist: @soyboysel"
     },
     {   
         src: 'collections_images/img74.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img74b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Avery Mei Skillin. @Aveemei"
     },
     {   
         src: 'collections_images/img75.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img75b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Sheez Lu. @sbreakthehills"
     },
     {   
         src: 'collections_images/img76.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img76b.png',
         'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'place' : "Parson's 2023 Illustration Thesis Exhibit.",
+        'date' : "March 25th, 2023.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Miriam Spalinski. @spalinskia"
     },
     {   
         src: 'collections_images/img77.png', 
         'category' : ['gifts'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img77b.png',
         'type' : "Card.",
-        'place' : "The MoCCA Illustration Festival.",
-        'date' : "Saturday, March 16th. 2024.",
+        'place' : "FiftyLan.",
+        'date' : "2022.",
         'desc' : "",
-        'artist' : ""
     },
     {   
         src: 'collections_images/img78.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img78b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Yadi Liu. @yadiiart"
     },
     {   
         src: 'collections_images/img79.png', 
         'category' : ['cards'],
-        'back' : 'backs/img56b.png',
+        'back' : 'backs/img79b.png',
         'type' : "Card.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: Felix McKenna. @felix_the_frog"
     },
     {   
         src: 'collections_images/img80.png', 
         'category' : ['stickers'],
-        'back' : 'backs/img56b.png',
-        'type' : "Card.",
+        'back' : 'backs/img80b.png',
+        'type' : "Sticker.",
         'place' : "The MoCCA Illustration Festival.",
         'date' : "Saturday, March 16th. 2024.",
         'desc' : "",
-        'artist' : ""
+        'artist' : "Artist: NOT!!! Jacob Voorheies. @not_jacob_voorheis"
     }
     ];
 

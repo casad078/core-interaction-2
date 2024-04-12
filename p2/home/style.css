@@ -481,49 +481,23 @@ img {
 .pink img {
   z-index: 40;
   position: absolute;
-  top: 0;
-  right: 9%;
-  width: 7%;
-  transition: 1s;
-}
-
-/* .darkblue {
-  z-index: 40;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 7%;
-  margin-right: 5%;
-} */
-
-.green img {
-  z-index: 40;
-  position: absolute;
-  bottom: 0;
-  left: 15px;
-  margin-bottom: 17%;
-  width: 8%;
+  top: 10px;
+  right: 13%;
+  width: 6%;
   transition: 1s;
 }
 
 .lightblue img {
   z-index: 40;
   position: absolute;
-  top: 0;
-  left: 6%;
-  width: 7.5%;
-  margin-top: 10%;
+  top: 10px;
+  right: 8%;
+  width: 6%;
   transition: 1s;
 }
 
 .lightblue img:hover {
   transform: rotateX(180deg) rotateY(180deg);
-  transition: 1s;
-  transform-style: preserve-3d;
-}
-
-.green img:hover {
-  transform: rotateY(180deg) rotateX(180deg);
   transition: 1s;
   transform-style: preserve-3d;
 }

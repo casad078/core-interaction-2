@@ -488,7 +488,7 @@ const images =
         'type' : "Polaroid.",
         'place' : "New York.",
         'date' : "2019.",
-        'desc' : "",
+        'desc' : "Tia Diana.",
         'artist' : "Taken by me."
     },
     {   
@@ -496,9 +496,9 @@ const images =
         'category' : ['photograph'],
         'back' : 'backs/img48b.png',
         'type' : "Polaroid.",
-        'place' : "The MoCCA Illustration Festival.",
+        'place' : "New York.",
         'date' : "2016.",
-        'desc' : "",
+        'desc' : "My dad.",
         'artist' : "Taken by me"
     },
     {   

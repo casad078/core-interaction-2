@@ -194,7 +194,6 @@ img {
     color: #6E85DF;
   }
 
-
   h3 {
     padding-top: 20px;
   }
@@ -581,7 +580,7 @@ img {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    animation: fadeInUp 1s ;
+    animation: fadeInRight 1s backwards;
 }
 
 .modal-content {
@@ -629,5 +628,38 @@ span {
 .lightblue {
   display: none;
 }
+
+
+.postcard {
+  color: white;
+}
+
+.photograph {
+  color: white;
+}
+
+.cards {
+  color: white;
+}
+ 
+.prints {
+  color: white;
+}
+
+.collaged {
+  color: white;
+}
+
+.stickers {
+  color: white;
+}
+
+.gifts {
+  color: white;
+}
+
+ .color-changed {
+    color: #6E85DF;
+  }
 
 }

@@ -26,6 +26,7 @@ window.addEventListener('load', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const image = document.querySelector('.littleguy img');
     const bio = document.querySelector('.bio');
+    const closeButton = document.querySelector('.close-button');
     
     image.addEventListener('click', function() {
         bio.style.display = 'block'; // Show the bio
@@ -37,10 +38,21 @@ document.addEventListener('DOMContentLoaded', function() {
         image.style.display = 'none';
     });
     
-    // Add event listener to hide the content when clicked
-    bio.addEventListener('click', function() {
+    // Add event listener to hide the bio when the close button is clicked
+    closeButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        event.stopPropagation(); // Prevent the click event from bubbling up to the bio
         bio.style.display = 'none';
         image.style.display = 'block'; // Show the image again
+    });
+    
+    // Add event listener to hide the bio when clicked outside the bio and not on the close button
+    document.addEventListener('click', function(event) {
+        // Check if the clicked element is not the bio, image, or close button
+        if (!bio.contains(event.target) && event.target !== image && event.target !== closeButton) {
+            bio.style.display = 'none';
+            image.style.display = 'block'; // Show the image again
+        }
     });
 });
 

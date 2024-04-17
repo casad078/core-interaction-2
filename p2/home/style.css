@@ -81,7 +81,7 @@ img {
     transform: rotateY(180deg);
     transition: 1s;
     transform-style: preserve-3d;
-    filter: grayscale(1);
+    filter: hue-rotate(3.142rad);
   }
 
   #menu {
@@ -271,6 +271,14 @@ img {
   animation: fadeInRight 1s ease-in-out;
 }
 
+.menu p{
+  font-size: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  position: absolute;
+  bottom: 0;
+}
+
 .menu button{
  background-color: black;
   color: white;
@@ -318,9 +326,31 @@ img {
   animation:opacity 1s ease-in-out;
 }
 
+.close-button {
+  color: black;
+  position: absolute;
+  right: 0;
+  margin: 5%;
+  animation: none;
+  font-family: fields-display, sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  cursor: pointer; /* Cursor style */
+  z-index: 1; /* Ensure it's above other content */
+  background-color: transparent;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #90777C;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .text {
  color: white;
- cursor: pointer;
+ cursor: default;
  position: absolute; 
  top: 20%; 
  text-align: center;
@@ -334,7 +364,6 @@ img {
   font-style: normal;
   margin-bottom: -12px;
   color: #6E85DF;
-  
 }
 
 .text h4 {
@@ -408,7 +437,7 @@ img {
     animation: none;
     font-family: fields-display, sans-serif;
     font-weight: 800;
-    font-style: normal;
+    font-size: 30px;
 }
 
 .close:hover,
@@ -477,35 +506,7 @@ img {
   color: #6E85DF;
 }
 
-.pink img {
-  z-index: 40;
-  position: absolute;
-  top: 10px;
-  right: 13%;
-  width: 6%;
-  transition: 1s;
-}
 
-.lightblue img {
-  z-index: 40;
-  position: absolute;
-  top: 10px;
-  right: 8%;
-  width: 6%;
-  transition: 1s;
-}
-
-.lightblue img:hover {
-  transform: rotateX(180deg) rotateY(180deg);
-  transition: 1s;
-  transform-style: preserve-3d;
-}
-
-.pink img:hover {
-  transform: rotateY(180deg);
-  transition: 1s;
-  transform-style: preserve-3d;
-}
 
 /* phone size */
 @media (max-width: 500px) { 
@@ -612,23 +613,6 @@ span {
 .content {
   position: relative;
 }
-
-.pink {
-  display: none;
-}
-
-.darkblue {
-  display: none;
-}
-
-.green {
-  display: none;
-}
-
-.lightblue {
-  display: none;
-}
-
 
 .postcard {
   color: white;

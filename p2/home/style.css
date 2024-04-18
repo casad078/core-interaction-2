@@ -81,7 +81,7 @@ img {
     transform: rotateY(180deg);
     transition: 1s;
     transform-style: preserve-3d;
-    filter: hue-rotate(3.142rad);
+    opacity: .33;
   }
 
   #menu {

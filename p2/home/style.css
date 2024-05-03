@@ -117,35 +117,11 @@ img {
     cursor: pointer;
   }
 
-.postcard {
+.filter-button{
   color: white;
 }
 
-.photograph {
-  color: white;
-}
-
-.cards {
-  color: white;
-}
- 
-.prints {
-  color: white;
-}
-
-.collaged {
-  color: white;
-}
-
-.stickers {
-  color: white;
-}
-
-.gifts {
-  color: white;
-}
-
- .color-changed {
+ .filter-button.active {
     color: #6E85DF;
   }
 
@@ -321,7 +297,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: rgba(159, 159, 159, 0.223);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
   z-index: 50;
   animation:opacity 1s ease-in-out;
 }
@@ -330,16 +306,17 @@ img {
   color: black;
   position: absolute;
   right: 0;
-  margin: 5%;
+  margin-top: 5%;
+  margin-right: 10%;
   animation: none;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 60px;
   font-style: normal;
-  cursor: pointer; /* Cursor style */
-  z-index: 1; /* Ensure it's above other content */
+  cursor: pointer; 
+  z-index: 1;
   background-color: transparent;
 }
 
@@ -347,7 +324,7 @@ img {
 .close-button:focus {
     text-decoration: none;
     cursor: pointer;
-    color: #272525;
+    color: #6E85DF;
 }
 
 .text {

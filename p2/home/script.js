@@ -896,116 +896,56 @@ window.addEventListener('load', function() {
     startScrollAnimation();
 });
 
-    function togglePostcards(){
-        toggleAnimation();
+// Function to toggle the filters
+function toggleFilter(filterClass){
+    toggleAnimation();
 
+    document.querySelectorAll('#masonry img').forEach(el => {
+        el.classList.toggle('hide')
+    });
+
+    document.querySelectorAll('.' + filterClass).forEach(el => {
+        el.classList.toggle('hide')
+    });
+
+    document.querySelector('.' + filterClass).classList.toggle('color-changed');
+}
+
+// Function to handle button clicks
+function handleButtonClick(event) {
+    const clickedButton = event.target;
+    const filterClass = clickedButton.getAttribute('data-filter');
+
+    // Check if the clicked button is already active
+    const isActive = clickedButton.classList.contains('active');
+
+    // Deactivate all buttons
+    document.querySelectorAll('.filter-button').forEach(button => {
+        button.classList.remove('active');
+    });
+
+    // If the clicked button was not already active, activate it and show corresponding images
+    if (!isActive) {
+        clickedButton.classList.add('active');
+
+        // Hide all elements first
         document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.postcard'))
-        document.querySelectorAll('.postcard').forEach(el => {
-            el.classList.toggle('hide')
-        })
+            el.classList.add('hide');
+        });
 
-        document.querySelector('.postcard').classList.toggle('color-changed');
-    }
-
-    function toggleCards(){
-        toggleAnimation();
-
+        // Show only the elements corresponding to the clicked button
+        document.querySelectorAll('.' + filterClass).forEach(el => {
+            el.classList.remove('hide');
+        });
+    } else {
+        // If the clicked button was already active, remove the active class and show all images
         document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.cards'))
-        document.querySelectorAll('.cards').forEach(el => {
-            el.classList.toggle('hide')
-        })
-    
-        document.querySelector('.cards').classList.toggle('color-changed');
+            el.classList.remove('hide');
+        });
     }
+}
 
-    function togglePhotograph(){
-        toggleAnimation();
-
-        document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.photograph'))
-        document.querySelectorAll('.photograph').forEach(el => {
-            el.classList.toggle('hide')
-        })
-
-        document.querySelector('.photograph').classList.toggle('color-changed');
-    }
-
-    function togglePrints(){
-        toggleAnimation();
-
-        document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.prints'))
-        document.querySelectorAll('.prints').forEach(el => {
-            el.classList.toggle('hide')
-        })
-
-        document.querySelector('.prints').classList.toggle('color-changed');
-    }
-
-    function toggleCollaged(){
-        toggleAnimation();
-
-        document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.collaged'))
-        document.querySelectorAll('.collaged').forEach(el => {
-            el.classList.toggle('hide')
-        })
-
-        document.querySelector('.collaged').classList.toggle('color-changed');
-    }
-
-    function toggleStickers(){
-        toggleAnimation();
-
-        document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.stickers'))
-        document.querySelectorAll('.stickers').forEach(el => {
-            el.classList.toggle('hide')
-        })
-
-        document.querySelector('.stickers').classList.toggle('color-changed');
-    }
-
-    function toggleGifts(){
-        toggleAnimation();
-
-        document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.gifts'))
-        document.querySelectorAll('.gifts').forEach(el => {
-            el.classList.toggle('hide')
-        })
-
-        document.querySelector('.gifts').classList.toggle('color-changed');
-    }
-
-    function togglePoster(){
-        toggleAnimation();
-
-        document.querySelectorAll('#masonry img').forEach(el => {
-            el.classList.toggle('hide')
-        })
-        console.log(document.querySelectorAll('.poster'))
-        document.querySelectorAll('.poster').forEach(el => {
-            el.classList.toggle('hide')
-        })
-
-        document.querySelector('.poster').classList.toggle('color-changed');
-    }
-    
-    
+// Add event listeners to all buttons with class 'filter-button'
+document.querySelectorAll('.filter-button').forEach(button => {
+    button.addEventListener('click', handleButtonClick);
+});

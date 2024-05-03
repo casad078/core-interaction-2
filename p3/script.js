@@ -1,5 +1,5 @@
-setInterval(showTime, 1000);
-function showTime() {
+setInterval(showClock, 1000);
+function showClock() {
     let time = new Date();
     let hour =
         time.getHours();
@@ -37,9 +37,6 @@ function showTime() {
         currentTime;
 }
 //not showing, fix
-
-
-showTime();
 
 function showTime() {
     const now = new Date();

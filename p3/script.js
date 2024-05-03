@@ -38,6 +38,7 @@ function showTime() {
 }
 //not showing, fix
 
+
 showTime();
 
 function showTime() {
@@ -76,7 +77,7 @@ function updateDivOpacity() {
     console.log("Adjusted hour:", adjustedHour);
 
     if (adjustedHour >= 4 && adjustedHour < 19) {
-        div.style.opacity = 0.3; // Fully opaque during daytime
+        div.style.opacity = 0; // Fully opaque during daytime
     } else {
         div.style.opacity = 1; // Partially transparent during nighttime
     }

@@ -4,8 +4,8 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
-  // c1 = color(91, 142, 190);
-  // c2 = color(242, 242, 242);
+  c1 = color(91, 142, 190);
+  c2 = color(242, 242, 242);
 
   c1 = color(39, 39, 40);
   c2 = color(83, 132, 132);

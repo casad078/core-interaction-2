@@ -9,7 +9,7 @@ function setup() {
   canvas.style('z-index', '-1');
 
   dayTimeColors = [color(91, 142, 190), color(242, 242, 242)]
-  nightTimeColors = [color(39, 39, 40), color(83, 132, 132)]
+  nightTimeColors = [color(0, 0, 0), color(82, 82, 82)]
 }
 
 function drawGradient(c1, c2) {

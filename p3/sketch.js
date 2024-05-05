@@ -58,7 +58,7 @@ function draw() {
   drawGradient(c1, c2);
 
   if(width < 800){
-    translate(-460, 0)
+    translate(-500, 0)
   }
 
   // antena right

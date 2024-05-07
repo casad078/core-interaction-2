@@ -44,7 +44,7 @@ function showTime() {
 }
 
 function updateDivColor() {
-    const divs = document.querySelectorAll('.glow2, .glow3');
+    const divs = document.querySelectorAll('.glow2, .glow3, .glow4, .glow5');
     const now = showTime();
     const currentHour = now.getHours();
 
@@ -85,4 +85,5 @@ setInterval(updateDivOpacity, 1000);
 
 // Initially update opacity
 updateDivOpacity();
+
 

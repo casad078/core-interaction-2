@@ -26,11 +26,9 @@ h1, p, #time {
 }
 
 .heading {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 25px;
-    margin-top: 50px;
+    display: block;
+    margin: auto;
+    font-size: 40px;
 }
 
 .heading h1 {
@@ -47,7 +45,7 @@ h1, p, #time {
 .bottom {
     margin: auto;
     display: block;
-    margin-top: 415px;
+    margin-top: 450px;
 }
 
 .bottom h1{
@@ -128,4 +126,68 @@ h1, p, #time {
     animation: shimmy 3s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+}
+
+.one {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  z-index: 4;
+}
+
+.two {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 4;
+}
+
+.three {
+  position: absolute;
+  top: 76%;
+  left: 15%;
+  z-index: 4;
+}
+
+.four {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  z-index: 4;
+}
+
+.glow4 {
+  width: 500px;
+  height: 500px;
+  opacity: 30%;
+  background-color: #c5dff8;
+  mask-image: radial-gradient(circle,#000, transparent 60%);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  -webkit-animation: shimmy 5s infinite;
+  animation: shimmy 5s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.glow5 {
+  width: 600px;
+  height: 600px;
+  opacity: 30%;
+  background-color: #c5dff8;
+  mask-image: radial-gradient(circle,#000, transparent 60%);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  -webkit-animation: shimmy 2s infinite;
+  animation: shimmy 3s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }

@@ -265,3 +265,36 @@ h1, p, #time {
   z-index: 3;
   position:fixed;
 }
+
+/* phone size */
+@media (max-width: 500px) { 
+
+  .a, .b, .c, .d {
+    display: none;
+  }
+
+  .words {
+    display: none;
+  }
+
+  .author {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  .home {
+    font-size: 12px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .subheading {
+    margin-top: -30px;
+  }
+
+  .bottom {
+    padding-top: 20px;
+  }
+}

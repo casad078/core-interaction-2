@@ -87,3 +87,49 @@ setInterval(updateDivOpacity, 1000);
 updateDivOpacity();
 
 
+//little whisps
+document.addEventListener("DOMContentLoaded", function() {
+    animateDiv('.a');
+    animateDiv('.b');
+    animateDiv('.c');
+    animateDiv('.d');
+});
+
+function makeNewPosition() {
+    var h = window.innerHeight - 50;
+    var w = window.innerWidth - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh, nw];    
+}
+
+function animateDiv(myclass) {
+    var element = document.querySelector(myclass);
+    var newPosition = makeNewPosition();
+    var currentTop = parseInt(getComputedStyle(element).top);
+    var currentLeft = parseInt(getComputedStyle(element).left);
+
+    var distanceTop = newPosition[0] - currentTop;
+    var distanceLeft = newPosition[1] - currentLeft;
+
+    var start = null;
+
+    function step(timestamp) {
+        if (!start) start = timestamp;
+        var progress = timestamp - start;
+        var percentage = Math.min(progress / 1000, 1); // 1000 milliseconds = 1 second
+        var top = currentTop + distanceTop * percentage;
+        var left = currentLeft + distanceLeft * percentage;
+        element.style.top = top + 'px';
+        element.style.left = left + 'px';
+        if (percentage < 1) {
+            window.requestAnimationFrame(step);
+        } else {
+            animateDiv(myclass);
+        }
+    }
+
+    window.requestAnimationFrame(step);
+}

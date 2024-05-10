@@ -39,7 +39,7 @@ function draw() {
   let minutes = minute()
   let c1, c2;
 
-  if (hours > 4 && hours < 19){
+  if (hours >= 4 && hours < 19){
     c1 = dayTimeColors[0];
     c2 = dayTimeColors[1];
   } else if (hours >= 19 && hours <= 20) {
@@ -50,7 +50,7 @@ function draw() {
     ratio = map(minutes, 0, 59, 1, 0)
     c1 = lerpColor(dayTimeColors[0], nightTimeColors[0], ratio);
     c2 = lerpColor(dayTimeColors[1], nightTimeColors[1], ratio);
-  } else if (hours < 4 && hours > 19) {
+  } else {
     c1 = nightTimeColors[0];
     c2 = nightTimeColors[1];
   }

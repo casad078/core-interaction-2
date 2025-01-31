@@ -1,3 +1,205 @@
 body {
     background-color: black;
+    overflow: hidden;
+}
+
+
+.mainimg {
+    filter: grayscale(1);
+    transition: ease-in 1s;
+}
+
+.mainimg:hover {
+    filter:none;
+}
+
+#background {
+    width: 99%;
+    z-index: -1;
+    position: absolute;
+}
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hover-container img {
+    display: block;
+    max-width: 140px;
+    height: auto;
+    z-index: 2;
+  }
+
+    .follow-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      pointer-events: none;
+      display: none; /* Hidden by default */
+    }
+
+    .hover-container:hover .follow-image {
+      display: block; /* Show the image on hover */
+    }
+    
+    .peebo {
+        position: absolute;
+        top: 120px;
+        right: 300px;
+    }
+
+    .catpaw {
+        position: absolute;
+        bottom: 270px;
+        left: 300px;
+        /* opacity: 50%; */
+    }
+
+    .pikachu {
+        position: absolute;
+        top: 150px;
+        left: 560px;
+    }
+
+    .tarot {
+        position: absolute;
+        top: 190px;
+        right: 230px;
+    }
+
+    .garf {
+        position: absolute;
+        bottom: 150px;
+        left: 280px;
+        /* opacity: 50%; */
+    }
+
+    .penguin {
+        position: absolute;
+        bottom: 110px;
+        left: 220px;
+    }
+
+    .dragonfly {
+        position: absolute;
+        bottom: 4px;
+        left: 300px;
+    }
+
+    .heart {
+        position: absolute;
+        top: 195px;
+        left: 190px;
+    }
+    
+    .roses {
+        position: absolute;
+        top: 74px;
+        right: 186px;
+    }
+      
+    .cards {
+        position: absolute;
+        top: 80px;
+        left: 350px;
+    }
+
+    #title {
+        width: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        padding-top: 50px;
+    }
+
+
+
+/* modal */
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    z-index: 1000;
+    background-color: black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+    background-color: black;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .modal.visible {
+    transform: translateX(0);
+  }
+  
+  .modal-content {
+    padding: 25px;
+    text-align: left;
+    color: white;
+    font-family: "input-sans-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 10px;
+  }
+  
+  .open-modal-btn,
+  .close-modal-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    color:white;
+    font-size: 20px;
+    
+    font-family: "input-sans-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .open-modal-btn {
+    font-size: 25px;
+  }
+  
+  .close-modal-btn {
+    margin-top: 5px;
+    background-color: transparent;
+  }
+  
+  #chartone, #charttwo, #colors {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* font-family: "input-sans-narrow", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+.bio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-family: "input-sans-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    padding-left: 10px;
 }
